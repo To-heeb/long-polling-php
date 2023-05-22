@@ -6,8 +6,7 @@ use React\EventLoop\Loop;
 
 function  submit()
 {
-    // assuming that the server is running other things that take a long time before making a response, 
-    //therefore sleep is used to stimulating that
+    // assuming that the server is running other things that take a long time before making a response, therefore sleep is used to stimulating that
     sleep(5);
     $job = getdata();
     $jobId = "job:" . time();
